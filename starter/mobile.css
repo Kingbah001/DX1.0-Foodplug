@@ -32,6 +32,17 @@
 }
 /* About us section ends here */
 
+/* Explore food section starts here */
+.explorefoods-card{
+    margin: 20px 0;
+}
+/* Explore food section ends here */
+
+/* Frequently ask question starts here */
+.faq-items{
+    min-width: 100%;
+}
+/* Frequently ask question ends here */
 }
 
 

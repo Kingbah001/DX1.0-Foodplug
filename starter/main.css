@@ -6,6 +6,9 @@
 }
 /* Page reset ends here */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body{ 
    font-family: 'Lato', sans-serif;
 
@@ -383,9 +386,114 @@ margin-top: 5px;
 }
 
 /* About us ends here */
+
+/* explore foods starts here */
+.explorefoods{
+    /* border: 3px solid black; */
+    /* height: 450px; */
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: 50px solid var(--main-color);
+    padding: 30px 0;
+}
+.explorefoods-container{
+    /* border: 3px solid tomato; */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* height: 350px; */
+}
+.explorefoods h2{
+    text-align: center;
+}
+.explorefoods-p{
+    padding: 0 20px;
+    margin: 15px;
+}
+.explorefoods-card{
+    width: 30%;
+    min-width: 250px;
+    /* border: 3px solid purple; */
+}
+.explorefoods-card-imageholder{
+    /* border: 3px solid black; */
+    height: 200px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    overflow: hidden;
+    /* width: 32%; */
+}
+.explorefoods-card-textholder{
+    /* border: 3px solid red; */
+}
+.explorefoods-card-imageholder img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.foodcard-tittle{
+   display: block;
+   font-weight: bolder;
+   margin: 10px 0;
+}
+.foodcard-time{
+    display: block;
+    margin: 8px 0;
+}
+.foodcard-price{
+    margin: 5px 0;
+    border-bottom: 0.5px solid var(--light-text-color);
+    padding-bottom: 5px;
+}
+.foodcard-price span{
+    color: var(--text-color);
+    text-decoration: line-through;
+}
+/* explore foods ends here */
+
+
+/* frequently ask questions starts here */
+.faq{
+    /* border: 3px solid tomato; */
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.faq h2{
+   text-align: center;
+   margin-bottom: 15px;
+}
+.faq-container{
+    /* border: 3px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.faq-items-tittle{
+    margin: 10px 0;
+    display: block;
+    color: var(--main-color);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.faq-items-tittle i{
+    color: var(--main-color);
+}
+.faq-items{
+    /* border: 3px solid purple; */
+    width: 49%;
+    min-width: 350px;
+    margin: 15px 0;
+}
+/* frequently ask questions ends here */
+
+
 /* safety precaution starts here */
     header,main{
         max-width: 1500px;
         margin: 0 auto;
     }
+   
 /* safety precaution ends here */
