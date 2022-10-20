@@ -460,6 +460,9 @@ margin-top: 5px;
     margin: 0 auto;
     padding: 30px 0;
 }
+.faq p{
+    text-align: justify;
+}
 .faq h2{
    text-align: center;
    margin-bottom: 15px;
@@ -488,6 +491,104 @@ margin-top: 5px;
     margin: 15px 0;
 }
 /* frequently ask questions ends here */
+
+/* CTA section starts here */
+.cta-section{
+    /* border: 3px solid tomato; */
+    width: 90%;
+    margin: 0 auto;
+}
+.cta-showcase{
+    /* border: 3px solid purple; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var( --gradient),url(./img/cta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--white-color);
+}
+.cta-notice{
+    text-align: center;
+    padding: 30px 0;
+}
+.cta-notice h2{
+    color: var(--main-color-dark);
+    font-weight: bolder;
+    font-size: 35px;
+}
+.cta-notice p{
+    margin: 20px 0;
+}
+.cta-input-holder{
+    display: flex;
+    justify-content: center;
+}
+.cta-input-holder input{
+    padding: 15px 10px;
+    width: 200px;
+    min-width: 100px;
+    transition: all 0.5s ease;
+    outline: none;
+    border: 2px solid var(--main-color);
+}
+.cta-input-holder input:hover{
+    width: 250px;
+}
+.cta-input-holder button{
+    color: var(--white-color);
+    background: var(--main-color);
+    border: 2px solid var(--main-color);
+}
+
+/* CTA section ends here */
+
+/* Footer section starts here */
+footer{
+    background: var(--main-color);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--white-color);
+}
+footer button{
+    border: 2px solid var(--white-color);
+    background: transparent;
+    color: var(--white-color);
+    text-decoration: none;
+    color: var(--white-color);
+}
+footer button:hover {
+    background: var(--main-color-dark);
+}
+.footer-icon-holder{
+    /* border: 3px solid white; */
+    /* height: 60px;
+    width: 200px; */
+    display: flex;
+}
+.footer-icon-holder a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.icon-container{
+    /* display: block; */
+    border: 2px solid var(--white-color);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.icon-container:hover{
+    background: var(--main-color-dark);
+}
+/* Footer section ends here */
 
 
 /* safety precaution starts here */
